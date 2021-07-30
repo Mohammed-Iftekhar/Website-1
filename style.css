@@ -1,18 +1,79 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-h1{
-    font-size:30px ;
+.section-1{
+    height: 500px;
+    background-image: url(developer-portfolio/top-banner.png);
+    margin-bottom: 25px;
 }
-.name-highlight{
-    color: orange;
+.section-1-div img{
+    width: 85%;
 }
-.half-width{
+.section-1-div{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-.half-width img{
-    width: 100%;
+
+.section-2{
+    height: 500px;
+    background-image: url(developer-portfolio/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.section-2-div img{
+    width: 85%;
+}
+.section-2-div{
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    padding-right: 2%;
+}
+.section-3{
+    height: 500px;
+    background-image: url("developer-portfolio/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.section-3-div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px gray;  
+    background-color: white; 
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato) ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+h1{
+    font-size:30px ;
+}
+h3{
+    color: orange;
+}
+.name-highlight{
+    color: orange;
+}
+#section-3-id-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#section-3-id-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
